@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBAction func touchDigit(_ sender: UIButton) {
-        print("It Works!")
+        let digit = sender.currentTitle!
+        print("\(digit) was touched!")
     }
 }
